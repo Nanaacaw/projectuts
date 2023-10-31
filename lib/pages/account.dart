@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projectuts/pages/home.dart';
 
 class Account extends StatefulWidget {
   const Account({super.key});
@@ -10,7 +11,18 @@ class Account extends StatefulWidget {
 class _AccountState extends State<Account> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple.shade400,
+        titleTextStyle: TextStyle(
+            color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+        title: Text('My Account'),
+        centerTitle: true,
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.arrow_back),
+        ),
+      ),
       body: Center(
         child: Text("this is account", style: TextStyle(fontSize: 20)),
       ),

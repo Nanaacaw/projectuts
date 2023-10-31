@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import './pages/home.dart';
 import './pages/cart.dart';
 import './pages/account.dart';
-import './pages/home.dart';
 
 class Utama extends StatefulWidget {
   const Utama({super.key});
@@ -13,15 +13,14 @@ class Utama extends StatefulWidget {
 class _UtamaState extends State<Utama> {
   int selectedIndex = 0;
   List<Widget> wg = [
-    Cart(),
     Home(),
+    Cart(),
     Account(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
       body: wg[selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: [
