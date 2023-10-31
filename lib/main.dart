@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projectuts/botnav.dart';
+// import 'package:projectuts/botnav.dart';
 import 'package:projectuts/intro.dart';
 
 void main() {

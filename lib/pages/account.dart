@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:projectuts/pages/home.dart';
 
 class Account extends StatefulWidget {
   const Account({super.key});
