@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:projectuts/botnav.dart';
-import 'package:projectuts/intro.dart';
+import 'package:projectuts/pages/intro.dart';
 
 void main() {
   runApp(const MyApp());

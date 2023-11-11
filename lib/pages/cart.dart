@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Cart extends StatefulWidget {
-  const Cart({super.key});
+class CartPage extends StatelessWidget {
+  const CartPage({super.key});
 
-  @override
-  State<Cart> createState() => _CartState();
-}
-
-class _CartState extends State<Cart> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("this is cart", style: TextStyle(fontSize: 20)),
-      ),
+    return Center(
+      child: Text('Cart Page'),
     );
   }
 }

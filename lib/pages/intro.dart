@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/home.dart';
+import 'home.dart';
 
 class PageIntro extends StatelessWidget {
   const PageIntro({super.key});
@@ -65,7 +65,7 @@ class PageIntro extends StatelessWidget {
                     ),
                   ),
                 ),
-                padding: const EdgeInsets.all(28),
+                padding: const EdgeInsets.all(20),
               ),
             )
           ]),
