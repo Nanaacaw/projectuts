@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:projectuts/components/button_login.dart';
 import 'package:projectuts/components/squareTile_login.dart';
 import 'package:projectuts/components/textfield_login.dart';
-import 'package:projectuts/pages/home_page.dart';
+// import 'package:projectuts/pages/home_page.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});

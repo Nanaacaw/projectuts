@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projectuts/pages/login_page.dart';
+// import 'package:projectuts/pages/login_page.dart';
 import 'home_page.dart';
 
 class PageIntro extends StatelessWidget {

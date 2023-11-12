@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projectuts/components/bottom_navbar.dart';
-import 'package:projectuts/pages/account_page.dart';
-import 'package:projectuts/pages/login_page.dart';
+// import 'package:projectuts/pages/login_page.dart';
 import 'cart_page.dart';
 import 'shop_page.dart';
 
@@ -31,9 +30,6 @@ class _HomePageState extends State<HomePage> {
 
     // CartPage
     const CartPage(),
-
-    // Account
-    const Account(),
   ];
 
   @override
@@ -42,7 +38,7 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavbar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
-      backgroundColor: Colors.grey.shade300,
+      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         leading: Builder(
@@ -100,10 +96,10 @@ class _HomePageState extends State<HomePage> {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     leading: Icon(
-                      Icons.info,
+                      Icons.person,
                       color: Colors.white,
                     ),
-                    title: Text('About'),
+                    title: Text('Profile'),
                     textColor: Colors.white,
                   ),
                 ),

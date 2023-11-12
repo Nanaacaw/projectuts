@@ -16,7 +16,7 @@ class CartPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Heading
-            Text(
+            const Text(
               'My Cart',
               style: TextStyle(
                 fontWeight: FontWeight.bold,

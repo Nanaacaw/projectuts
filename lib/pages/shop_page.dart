@@ -73,7 +73,7 @@ class _ShopPageState extends State<ShopPage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
                 Text(
-                  'Hot Picks 🔥',
+                  'Best Deals 🔥',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 24,
@@ -97,7 +97,7 @@ class _ShopPageState extends State<ShopPage> {
           // list sepatu yang dijual
           Expanded(
             child: ListView.builder(
-              itemCount: 4,
+              itemCount: 7,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 // get a shoe from shop list

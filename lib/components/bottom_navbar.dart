@@ -10,7 +10,7 @@ class BottomNavbar extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 15),
       child: GNav(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.center,
         color: Colors.black,
         activeColor: Colors.black,
         tabActiveBorder: Border.all(color: Colors.white),
@@ -25,10 +25,6 @@ class BottomNavbar extends StatelessWidget {
           GButton(
             icon: Icons.shopping_bag_outlined,
             text: 'Cart',
-          ),
-          GButton(
-            icon: Icons.person,
-            text: 'Account',
           ),
         ],
       ),

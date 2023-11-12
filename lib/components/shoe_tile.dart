@@ -13,7 +13,7 @@ class ShoeTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 25.0),
+      margin: const EdgeInsets.only(left: 25.0),
       width: 280,
       decoration: BoxDecoration(
         color: Colors.grey[100],
@@ -82,7 +82,7 @@ class ShoeTile extends StatelessWidget {
                         bottomRight: Radius.circular(15),
                       ),
                     ),
-                    child: Icon(
+                    child: const Icon(
                       Icons.add,
                       color: Colors.white,
                     ),
