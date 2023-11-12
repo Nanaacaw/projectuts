@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'home_page.dart';
 
 class PageIntro extends StatelessWidget {
   const PageIntro({super.key});

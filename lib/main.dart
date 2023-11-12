@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:projectuts/botnav.dart';
-import 'package:projectuts/pages/intro.dart';
+import 'package:projectuts/models/cart.dart';
+import 'package:projectuts/pages/intro_page.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,14 +12,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+    return ChangeNotifierProvider(
+      create: (context) => Cart(),
+      builder: (context, child) => const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: PageIntro(),
       ),
-      home: PageIntro(),
     );
   }
 }
