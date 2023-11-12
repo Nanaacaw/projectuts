@@ -73,7 +73,7 @@ class _ShopPageState extends State<ShopPage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
                 Text(
-                  'Best Deals 🔥',
+                  'Special Offers 📢🏷️',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 24,
