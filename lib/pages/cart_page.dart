@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projectuts/models/cart.dart';
 import 'package:projectuts/models/shoe.dart';
-import 'package:projectuts/packages/cart_items.dart';
+import 'package:projectuts/components/cart_items.dart';
 import 'package:provider/provider.dart';
 
 class CartPage extends StatelessWidget {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:projectuts/packages/bottom_navbar.dart';
+import 'package:projectuts/components/bottom_navbar.dart';
 import 'package:projectuts/pages/account_page.dart';
+import 'package:projectuts/pages/login_page.dart';
 import 'cart_page.dart';
 import 'shop_page.dart';
 
